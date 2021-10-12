@@ -1,2 +1,11 @@
-# advanced-reactjs-dio
+# Ciclo de vida do React
+
+Atividades estudadas:
+
+- Ciclo de vidas
+- Hooks
+- Fragments
+- Error Boundaries
+
+
  
