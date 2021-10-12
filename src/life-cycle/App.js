@@ -5,7 +5,7 @@ class App extends Component {
 
   state = {
     loading: false,
-    acived: true
+    actived: true
   }  
 
   componentDidMount() {
@@ -18,7 +18,7 @@ class App extends Component {
 
   onRemove = () => {
     this.setState({
-      acived: false
+      actived: false
     })
   }
 
@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div>
         <button onClick={this.onRemove}>Remover Component</button>
-        {this.state.acived && ( 
+        {this.state.actived && ( 
           <Twitter posts={posts} loading={this.state.loading}/>
         )}
        </div>     
