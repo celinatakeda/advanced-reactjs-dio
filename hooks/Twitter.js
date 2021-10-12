@@ -6,11 +6,11 @@ const areEqual = (prevProps, nextProps) => {
 
 function Twitter(props)  {  
     const { loading } = props 
-    const [tweet, setTweet] = useState('title')
+    const [tweet, setTweet] = useState()
 
   // componentDidMount()
   useEffect(() => {
-    const { posts } = this.props
+    const { posts, loading } = props
     console.log('ComponentDidMount', posts)
     console.log('componentDidMount:loading', loading)
   }, [])
