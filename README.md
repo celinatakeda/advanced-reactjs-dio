@@ -4,7 +4,7 @@ Atividades estudadas:
 
 - Ciclo de vidas
 - Hooks
-- 
+- Fragments
 
 
  
