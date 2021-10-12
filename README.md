@@ -5,6 +5,7 @@ Atividades estudadas:
 - Ciclo de vidas
 - Hooks
 - Fragments
+- Error Boundaries
 
 
  
